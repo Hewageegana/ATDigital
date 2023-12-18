@@ -1,0 +1,16 @@
+:root {
+    --color-primary: #6B3CC9;
+    --color-secondary: #fdd200;
+    --Analogous-Color-1: #00ffdd;
+    --Analogous-Color-2: #021BF9;
+    --Dark-Color: (90deg, #1CBDDD 100%, #4DCA79 100%)
+    --Text-Color: #2F2F2F;
+    --Text-Color-Light: #314964;
+    --Text-Color-Subtitle: #9C9991;
+    --Accent-color: #E2F2FE;
+    --Accent-color-2: #FFF8E0;
+    --Error-Color: #FFF8E0;
+    --Success-Color: #58BC08;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  }
+
