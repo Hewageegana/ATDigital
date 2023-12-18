@@ -5,9 +5,9 @@ import '../css/navbar.css';
 export default function NavigationBar() {
     return (
         <div className="home">
-            <nav class="navbar">
-                <div class="navdiv">
-                    <div class="logo">
+            <nav className="navbar">
+                <div className="navdiv">
+                    <div className="logo">
                         <a href="#"><img src={logo} alt='logo'></img></a>
                     </div>
                     <ul>
