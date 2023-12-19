@@ -1,32 +1,61 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../css/main.css'
+
+import computerIcon from "../Assets/images/computerIcon.png"
+import searchIcon from "../Assets/images/searchIcon.png"
+import homeIMG from "../Assets/images/home.png"
+
 export default function home() {
   return (
     <div className="home">
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="..." />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
+
+      <div className='homeIMG'>
+        <img className="homeImg" src={homeIMG} alt='home' />
+      </div>
+      <div className='container'>
+        <div className="main-card">
+          <h3 className='cardContent'>We crush your<br /> competitors, goals, and<br /> sales records - without<br /> the B.S.</h3>
+          <button className='cardButton'>GET FREE CONSULTATION</button>
         </div>
       </div>
 
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+      <div className='cards'>
+        <div className='container'>
+          <div className='crd'>
+            <div className='cardImage'>
+              <img src={computerIcon} alt='com' />
+            </div>
+            <div className='cardBody'>
+              <div className='cardHeader'>
+                <h2>Web & Mobile App Development</h2>
+              </div>
+              <div className='cardContain'>
+                <h5>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which
+                  tailor content and engagement methods to respond to different intents shown by your potential customers
+                  who interact with your business online.</h5>
+                <button className='cardBtn'>LEARN MORE</button>
+              </div>
             </div>
           </div>
-          <div class="col-md-8">
-            <img src="..." class="img-fluid rounded-start" alt="..." />
+
+          <div className='crd'>
+            <div className='cardBody'>
+              <div className='cardHeader'>
+                <h2>Digital Strategy Consulting</h2>
+              </div>
+              <div className='cardContain'>
+                <h5>Your digital strategy should complement the overall marketing strategy of the company. In online marketing,
+                   each component will never work in isolation and every business needs a different mix. We provide a clear concept
+                  and strategic overview to find the most efficient model for your business..</h5>
+                <button className='cardBtn'>LEARN MORE</button>
+              </div>
+            </div>
+            <div className='cardImage'>
+              <img src={searchIcon} alt='com' />
+
+            </div>
           </div>
         </div>
       </div>

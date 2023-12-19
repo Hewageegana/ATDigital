@@ -3,16 +3,16 @@
     --color-secondary: #fdd200;
     --Analogous-Color-1: #00ffdd;
     --Analogous-Color-2: #021BF9;
-    --Dark-Color: (90deg, #1CBDDD 100%, #4DCA79 100%)
-    --Text-Color: #2F2F2F;
+    --Dark-Color: (90deg, #1CBDDD 100%, #4DCA79 100%) --Text-Color: #2F2F2F;
     --Text-Color-Light: #314964;
     --Text-Color-Subtitle: #9C9991;
     --Accent-color: #E2F2FE;
     --Accent-color-2: #FFF8E0;
     --Error-Color: #FFF8E0;
     --Success-Color: #58BC08;
-    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-  }
+    --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+}
+
 * {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
@@ -24,8 +24,12 @@
 .navbar {
     background: var(--color-primary);
     font-family: calibri;
-    padding-right: 15px;
-    padding-left: 15px;
+
+}
+
+.navbarWrapper{
+    background: var(--color-primary);
+    font-family: calibri;
 }
 
 .navdiv {
@@ -34,34 +38,28 @@
     justify-content: space-between;
 }
 
-/* .logo a {
-    font-size: 35px;
-    font-weight: 600;
-    color: #FFFFFF;
-} */
+.navdiv ul{
+    margin-left: 1000px;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+}
 
 li {
     list-style: none;
     display: inline-block;
 }
 
-li a {
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.navbar-nav li{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
-}
-
-button {
-    background-color: black;
-    margin-left: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    width: 90px;
-}
-
-button a {
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 15px;
+    text-decoration: none;
 }
