@@ -3,7 +3,9 @@
   --color-secondary: #fdd200;
   --Analogous-Color-1: #00ffdd;
   --Analogous-Color-2: #021BF9;
-  --Dark-Color: (90deg, #1CBDDD 100%, #4DCA79 100%) --Text-Color: #2F2F2F;
+  --Button-Color: #F28D35;
+  --Dark-Color: (90deg, #1CBDDD 100%, #4DCA79 100%);
+  --Text-Color: #2F2F2F;
   --Text-Color-Light: #314964;
   --Text-Color-Subtitle: #9C9991;
   --Accent-color: #E2F2FE;
@@ -22,7 +24,97 @@
 .homeIMG {
   display: flex;
   justify-content: center;
-  /* Horizontally center */
   align-items: center;
-  /* Vertically center */
 }
+
+.main-card{
+  width: 630px;
+  height: 306px;
+  background-color: var(--Analogous-Color-1);
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.cardContent{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--Accent-color-2);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  
+}
+.cardButton{
+  background-color: var(--Button-Color);
+  width: 214px;
+  height: 38px;
+  border-radius: 4px;
+  padding: 12px,20px,12px,20px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  line-height: 14px;
+  font-weight: 700;
+  color: var(--Accent-color);
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  
+}
+
+.container{
+  display: flex; /* or grid */
+  flex-wrap: wrap; /* or other properties */
+}
+.crd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+
+}
+
+.cardContain{
+  
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 5%;
+}
+
+.cardHeader{
+  color: var(--color-primary);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  size: 27px;
+  line-height: 33px;
+}
+
+.cardBtn{
+  background-color: var(--Button-Color);
+  width: auto;
+  height: 38px;
+  border-radius: 4px;
+  padding: 12px,20px,12px,20px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  line-height: 14px;
+  font-weight: 700;
+  color: var(--Accent-color);
+  outline: none;
+  border: none;
+  margin-top: 3%;
+}
+
+.crd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
