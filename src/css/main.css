@@ -4,7 +4,7 @@
   --Analogous-Color-1: #00ffdd;
   --Analogous-Color-2: #021BF9;
   --Button-Color: #F28D35;
-  --Dark-Color: (90deg, #1CBDDD 100%, #4DCA79 100%);
+  --Dark-Color: linear-gradient(90deg, #1CBDDD 100%, #4DCA79 100%);
   --Text-Color: #2F2F2F;
   --Text-Color-Light: #314964;
   --Text-Color-Subtitle: #9C9991;
@@ -30,7 +30,7 @@
 .main-card{
   width: 630px;
   height: 306px;
-  background-color: var(--Analogous-Color-1);
+  background: linear-gradient(90deg, #1CBDDD , #4DCA79 );
   position: absolute;
   top: 75%;
   left: 20%;
@@ -116,5 +116,15 @@
   justify-content: center;
   align-items: center;
   margin-left: 10%;
+}
+
+.footerHr{
+  text-align: center;
+}
+
+.footerHr hr{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
 }
 

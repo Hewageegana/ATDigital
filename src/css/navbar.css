@@ -27,6 +27,11 @@
 
 }
 
+.navbarWrapper{
+    background: var(--color-primary);
+    font-family: calibri;
+}
+
 .navdiv {
     display: flex;
     align-items: center;
@@ -45,15 +50,16 @@ li {
     display: inline-block;
 }
 
-li a {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
-}
 
 .logo {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+}
+.navbar-nav li{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
 }
